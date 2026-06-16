@@ -106,7 +106,10 @@ li.blurb,
 #dashboard a {
   color: #000;
 }
-
+#dashboard .current {
+  background-color: #FFB2F0;
+  color: #ac0c35;
+}
 .autocomplete input,
 .autocomplete .dropdown ul li {
   display: block;

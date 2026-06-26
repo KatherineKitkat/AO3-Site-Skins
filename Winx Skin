@@ -558,7 +558,7 @@ li.comment p {
 
 .splash .module h3 {
   border-bottom: 1px solid white !important;
-  color: #8300FF !important;
+  color: #e4c2ff !important;
   font-size: 1.714em !important;
   text-shadow: none !important;
   letter-spacing: .03em !important;

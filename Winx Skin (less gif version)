@@ -1,20 +1,28 @@
 .splash .favorite li:nth-of-type(odd) a:hover {
   background: url(https://i.imgur.com/S5liRKx.gif);
   background-size: 500px;
-  background-color: #aa000042;
+  color: #fff !important;
   font-weight: 570;
-  text-shadow: 1px 1px 2px rgb(0 0 0);
   -webkit-text-stroke: .25px #ffffff;
 }
-
 .splash .favorite li:nth-of-type(even) a:hover {
   background: url(https://i.imgur.com/S5liRKx.gif);
   background-size: 500px;
-  background-color: #aa000042;
+  color: #fff !important;
   font-weight: 570;
-  text-shadow: 1px 1px 2px rgb(0 0 0);
   -webkit-text-stroke: .25px #ffffff;
 }
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: linear-gradient(to right, #C9EDFA, #FFDE59, #C9EDFA);
+  color: #000;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  background: linear-gradient(to right, #C9EDFA, #FFDE59, #C9EDFA);
+  color: #000;
+}
+
 
 .splash .news blockquote p:first-child {
   padding-left: 105px;
@@ -550,7 +558,7 @@ li.comment p {
 
 .splash .module h3 {
   border-bottom: 1px solid white !important;
-  color: pink !important;
+  color: #8300FF !important;
   font-size: 1.714em !important;
   text-shadow: none !important;
   letter-spacing: .03em !important;
@@ -627,11 +635,6 @@ p.muted.notice {
   display: none;
 }
 
-.splash .favorite li:nth-of-type(odd) a {
-  background: #efd2d5b3;
-  color: rgba(0, 0, 0, 0.8);
-}
-
 #outer.wrapper,
 #inner.wrapper {
   background-color: #FFECF9;
@@ -644,7 +647,6 @@ a.tag:hover {
   background: url(https://i.imgur.com/S5liRKx.gif);
   background-size: 500px;
   font-weight: 570;
-  text-shadow: 1px 1px 2px rgb(0 0 0);
   -webkit-text-stroke: .25px #fff;
   background-color: #fff;
 }
@@ -731,4 +733,12 @@ a.current,
   background-repeat
   border-color: #000;
   text-color: #fff;
+}
+
+.link a,
+.title,
+.title a,
+h3.heading,
+h3.heading a {
+  color: #C90076 !important;
 }

@@ -1,7 +1,7 @@
 .splash .favorite li:nth-of-type(odd) a:hover {
   background: url(https://i.imgur.com/S5liRKx.gif);
   background-size: 500px;
-  color: #fff !impotrtant;
+  color: #fff !important;
   font-weight: 570;
   -webkit-text-stroke: .25px #ffffff;
 }

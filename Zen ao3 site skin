@@ -656,7 +656,7 @@ a.tag:hover {
 }
 
 .tags a.tag::after {
-  content: "ॐ";
+  content: "🪷";
   color: #ffcb43;
   text-shadow: 0 0 3px #fff;
   margin-right: 2px;

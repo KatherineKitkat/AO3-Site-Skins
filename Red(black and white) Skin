@@ -895,3 +895,11 @@ a {
   border-radius: 5px;
   padding: 0.5em 1em;
 }
+p.required.notice {
+  background: #A60000 !important;
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.4em 0.75em;
+  display: inline-block;
+}

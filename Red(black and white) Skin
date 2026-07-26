@@ -1,0 +1,890 @@
+p.icon {
+  display: none !important;
+}
+
+div.primary.header.module p.icon {
+  display: block !important;
+}
+
+.favorite.module.odd {
+  background: url(https://i.imgur.com/HF1Ob2V.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: linear-gradient(to right, #CC1414, #550B0D) !important;
+  color: #fff;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover {
+  background: #A60000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  background: transparent;
+  color: #000;
+}
+
+.splash .favorite li:nth-of-type(even) a:hover {
+  background: transparent;
+  color: #A60000;
+  font-weight: bold;
+  text-shadow: #A60000;
+}
+
+dd.pseuds a,
+dd.pseuds a:visited {
+  color: #A60000 !important;
+}
+
+dd.pseuds a:hover {
+  color: #CC1414 !important;
+}
+
+dd.series a,
+dd.series a:visited,
+dd.collections a,
+dd.collections a:visited {
+  color: #990000 !important;
+  font-weight: bold;
+}
+
+li.blurb ul.series a,
+li.blurb ul.series a:visited {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.splash ul.series a,
+.splash ul.series a:visited {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.splash li.blurb h4.heading a,
+.splash li.blurb h4.heading a:visited {
+  color: #990000 !important;
+  font-weight: bold;
+}
+
+.splash li.blurb h5.fandoms.heading a,
+.splash li.blurb h5.fandoms.heading a:visited {
+  color: #990000 !important;
+  font-weight: bold;
+}
+
+.splash .latest.messages.module .comment blockquote.userstuff,
+.splash .latest.messages.module .comment blockquote.userstuff p {
+  color: #fff !important;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  background: url(https://i.imgur.com/8KBCRO3.png);
+  background-size: 90px 90px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 83px;
+  background: url(https://i.imgur.com/sKcdlEJ.png);
+  background-size: 80px 90px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.index .skins .icon {
+  background: url(https://i.imgur.com/cq3xIjy.png);
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+}
+
+.home .primary .icon::after {
+  background-image: url("https://i.imgur.com/zCNsLYS.png");
+  background-size: 150px 153px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  content: "";
+  position: absolute;
+  left: -24.5px;
+  top: -25.5px;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+.required-tags .rating-general-audience,
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background: url("https://i.imgur.com/xBMrYjt.png");
+  background-size: cover;
+}
+
+.required-tags .rating-teen,
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background: url("https://i.imgur.com/0RK6UYG.png");
+  background-size: cover;
+}
+
+.required-tags .rating-mature,
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background: url("https://i.imgur.com/YlUMzsN.png");
+  background-size: cover;
+}
+
+.required-tags .rating-explicit,
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background: url("https://i.imgur.com/r75RozJ.png");
+  background-size: cover;
+}
+
+.required-tags .category-gen,
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background: url("https://i.imgur.com/c6ffyHU.png");
+  background-size: cover;
+}
+
+.required-tags .category-femslash,
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background: url("https://i.imgur.com/ptRtEi1.png");
+  background-size: cover;
+}
+
+.required-tags .category-het,
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background: url("https://i.imgur.com/hs27NAT.png");
+  background-size: cover;
+}
+
+.required-tags .category-slash,
+img[src$="/images/skins/iconsets/default/category-slash.png"] {
+  background: url("https://i.imgur.com/qAgoVes.png");
+  background-size: cover;
+}
+
+.required-tags .category-multi,
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background: url("https://i.imgur.com/hvCAAij.png");
+  background-size: cover;
+}
+
+.required-tags .category-other,
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background: url("https://i.imgur.com/fjWdITc.png");
+  background-size: cover;
+}
+
+.required-tags .warning-choosenotto,
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background: url("https://i.imgur.com/UDWgjMv.png");
+  background-size: cover;
+}
+
+.required-tags .warning-yes,
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background: url("https://i.imgur.com/YCRD5h0.png");
+  background-size: cover;
+}
+
+.required-tags .external-work,
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background: url("https://i.imgur.com/yucUhHb.png");
+  background-size: cover;
+}
+
+.required-tags .complete-yes,
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background: url("https://i.imgur.com/oN7KjnE.png");
+  background-size: cover;
+}
+
+.required-tags .complete-no,
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background: url("https://i.imgur.com/Y6txNsP.png");
+  background-size: cover;
+}
+
+.status .rec,
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background: url("https://i.imgur.com/gL2X8Qj.png") !important;
+  background-size: cover !important;
+}
+
+.status .public,
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  background: url("https://i.imgur.com/8HTg33L.png") !important;
+  background-size: cover !important;
+}
+
+.status .private,
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  background: url("https://i.imgur.com/U99w0Om.png") !important;
+  background-size: cover !important;
+}
+
+.status .private .text {
+  background: none;
+}
+
+.status .hidden,
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background: url("https://i.imgur.com/GK2QQsN.png") !important;
+  background-size: cover !important;
+}
+
+#modal #symbols-key,
+#modal #symbols-key dt,
+#modal #symbols-key dd,
+#modal .content.userstuff h4 {
+  color: #000 !important;
+}
+
+#modal dl dt,
+#modal dl dd {
+  color: #000 !important;
+}
+
+#modal .content.userstuff p a {
+  color: #A60000 !important;
+  text-decoration: underline;
+}
+
+form dt {
+  background: none;
+}
+
+li.blurb,
+.blurb .blurb {
+  display: block;
+  position: relative;
+  clear: left;
+  padding: .429em .75em;
+  overflow: visible;
+  border-radius: 5px;
+  background-color: #A60000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.blurb h4.heading a {
+  color: #FFF;
+}
+
+.blurb .fandoms a {
+  color: #FFF;
+}
+
+.autocomplete input,
+.autocomplete .dropdown ul li {
+  display: block;
+  border: 1px solid #EFD1D1;
+  min-width: 10em;
+}
+
+input,
+textarea {
+  font: 100% lucida grande, lucida sans unicode, Verdana, Helvetica, sans-serif, gnu unifont;
+  width: 100%;
+  border: 1px solid #fff;
+  box-shadow: inset 0 1px 4px 0px #CC1414;
+}
+
+.draft {
+  border: 2px dashed #ffffff;
+  padding: .643em;
+  border-radius: .5em;
+  background: #520000;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: inherit;
+  opacity: .95;
+}
+
+.bookmark .user:nth-child(odd) {
+  background-color: transparent;
+  background-image: url(https://i.imgur.com/U51BCoQ.jpeg);
+  background-position: center;
+  background-size: 16em;
+  background-blend-mode: overlay;
+  box-shadow: 5px 5px 5px #CC1414;
+  color: #fff;
+  font: papyrus;
+  font-weight: bold;
+}
+
+.bookmark .user:nth-child(even) {
+  background-color: transparent;
+  box-shadow: 5px 5px 5px #fff;
+  font-weight: bold;
+}
+
+.splash .favorite:after {
+  content: "✮❦꧂❦✮ ";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#greeting {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+
+#greeting img.icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.user.navigation.actions > li.dropdown {
+  padding-top: 45px !important;
+  color: #fff;
+}
+
+.user.navigation.actions > li {
+  padding-top: 45px !important;
+}
+
+#outer #header .dropdown-menu li:nth-child(odd) a:hover {
+  background: #000;
+  color: #fff;
+  border: 3px solid #fff;
+  font-weight: 570;
+  text-shadow: 1px 1px 2px rgb(0 0 0);
+  -webkit-text-stroke: .25px #fff;
+}
+
+#outer #header .dropdown-menu li:nth-child(even) a:hover {
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #fff;
+  font-weight: 570;
+  text-shadow: 1px 1px 2px rgb(0 0 0);
+  -webkit-text-stroke: .25px #fff;
+}
+
+#header .menu li {
+  border-bottom: 1px solid transparent;
+  margin: 0 .25em;
+  text-align: left;
+}
+
+#header .menu,
+#small_login {
+  background: transparent;
+  color: #000;
+  background-size: contain;
+  padding: .25em 0;
+  position: absolute;
+  width: 20em;
+  box-shadow: none;
+}
+
+#outer #header .dropdown-menu li:nth-child(odd) a {
+  background: #8d0000;
+  padding: 5px 9px;
+  border: 3px solid rgba(255, 182, 193, 0.8);
+  border-radius: 10px;
+  color: #fff !important;
+  text-shadow: -1px -1px 0 #8d0000, 1px 1px 0 #520000, 0 0 1px #520000;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+#outer #header .dropdown-menu li:nth-child(even) a {
+  background-color: #520000;
+  padding: 5px 9px;
+  border: 3px solid rgba(238, 149, 151, 0.8);
+  border-radius: 10px;
+  color: #fff !important;
+  text-shadow: -1px -1px 0 #520000, 1px 1px 0 #CC1414, 0 0 1px #CC1414;
+  box-shadow: 5px 5px 5px #cccccc;
+}
+
+.splash .module h3:after {
+  font-style: normal;
+  content: "·༻𐫱༺·";
+  color: #000;
+}
+
+#header .user a[href*="works/new"]:after,
+#small_login .action:after {
+  content: "▬▬ι══════ﺤ";
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.75), 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
+#header ul.primary {
+  background-color: #fff !important;
+  background-size: 300px;
+  background-blend-mode: overlay;
+  color: #000 !important;
+}
+
+#header .primary .menu a {
+  background: white;
+  padding: .75em .5em .5em;
+}
+
+#greeting ul.user.navigation.actions {
+  background-color: transparent !important;
+}
+
+#greeting a {
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.75), 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
+#dashboard.own {
+  background-image: url("https://i.imgur.com/5mD5iP0.jpeg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-top: 5px solid #DEEAEE;
+  border-bottom: 5px solid #DEEAEE;
+  box-shadow: none;
+}
+
+#dashboard a {
+  color: #000;
+  background: #ffffff10;
+}
+
+#dashboard .current {
+  background-color: #fff;
+}
+
+#dashboard h4.landmark.heading {
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.75), 0 0 1px rgba(0, 0, 0, 0.9);
+}
+
+dl.meta,
+li.blurb {
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+
+.listbox li.blurb,
+.listbox .landmark.heading,
+.listbox .tags .listbox,
+.listbox .lots li,
+.listbox .all li {
+  display: block;
+  border: 2px dotted #fff;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: url(https://i.imgur.com/Jf90NN5.jpeg);
+  margin: .643em auto;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(255, 192, 203, 0.2);
+  border: 3px solid #fff;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic,
+.dropdown {
+  background: #fff;
+  border: 1px solid #520000;
+  color: #000 !important;
+}
+
+li.warnings a {
+  color: #fff !important;
+}
+
+.userstuff a,
+.userstuff a:visited {
+  color: #CC1414 !important;
+}
+
+.splash li.blurb ul.series li a,
+.splash li.blurb ul.series li a:visited {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+dd.series a,
+dd.series a:visited,
+dd.collections a,
+dd.collections a:visited,
+li .series a,
+li .series a:visited {
+  color: #A60000 !important;
+  font-weight: bold;
+}
+
+dd.series a:hover,
+dd.collections a:hover,
+li .series a:hover {
+  color: #CC1414 !important;
+}
+
+dt a,
+dt a:visited {
+  color: #CC1414 !important;
+}
+
+dt a:hover {
+  color: #CC1414 !important;
+}
+
+strong {
+  color: #ffffff !important;
+}
+
+#children a {
+  color: #ffffff !important;
+}
+
+#kudos p.kudos a {
+  color: #ffffff !important;
+}
+
+.kudos a:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(https://i.imgur.com/z6UgATC.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.25em;
+  vertical-align: middle;
+}
+
+p.kudos {
+  background: none !important;
+  position: relative;
+  padding-left: 70px;
+  min-height: 50px;
+  color: #fff !important;
+}
+
+p.kudos::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: -10px;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  background: url("https://i.imgur.com/z3RJUOL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.comment h4.byline {
+  background: url(https://i.imgur.com/UZkeNLB.jpeg);
+  padding: .25em .5em .35em 108px;
+  margin: 0 auto -.25em;
+  background-size: auto;
+}
+
+.comment h4.byline a {
+  color: #000;
+  font-weight: bold;
+}
+
+.comment h4.byline .parent a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.thread .even {
+  background: radial-gradient(#000, #4F0000);
+}
+
+div.comment,
+li.comment {
+  background-color: #000;
+  color: #FC2631 !important;
+  position: relative;
+  border: 1px solid #CC1414;
+  overflow: visible;
+  text-align: start;
+  box-shadow: 5px 5px 5px #FC2631;
+}
+
+div.comment:nth-child(even),
+li.comment:nth-child(even) {
+  background: radial-gradient(#4F0000, #000);
+}
+
+.comment fieldset {
+  margin: 0;
+  background: url(https://i.imgur.com/7gmDwtS.jpeg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  box-shadow: 1px 0 5px 2px #000;
+}
+
+.reading h4.viewed {
+  background: #fff;
+}
+
+.splash .module {
+  background-color: white !important;
+  padding: 0.5em 1em !important;
+  border-radius: 5px !important;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid white !important;
+  color: red !important;
+  font-size: 1.714em !important;
+  text-shadow: none !important;
+  letter-spacing: .03em !important;
+  -webkit-text-stroke: 0.25px black !important;
+  font-style: oblique !important;
+  background: none !important;
+  margin: 0 0 0.5em 0 !important;
+}
+
+.splash .module h3:after {
+  content: none !important;
+}
+
+.comment > div.icon {
+  border-bottom-color: #FC2631;
+}
+
+.comment .icon .visitor {
+  background: url(https://i.imgur.com/bnm8oK4.jpeg);
+  display: block;
+  background-size: contain;
+}
+
+li.skins.own.picture.blurb.group h4.heading a {
+  color: #CC1414 !important;
+}
+
+#header .logo,
+#header h1.heading span,
+#header h1.heading sup {
+  visibility: hidden !important;
+}
+
+#header {
+  position: relative;
+  background: url('https://i.imgur.com/BdpnBgF.png');
+  background-size: cover;
+  height: 140px;
+  overflow: visible;
+  margin: 0 0 1em;
+  padding: 0;
+  background-position: center center;
+  z-index: 1;
+}
+
+#header h1 {
+  position: static;
+  margin: 0;
+  padding: 0.5em 0 0 1em;
+  font-family: Magic Wix Scrit, "Gowun Dodum", "Red Hat Text", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  border-bottom: none;
+  font-weight: normal;
+  text-shadow: 0 0 3px white;
+}
+
+#header .landmark {
+  opacity: 1;
+  font-size: 100%;
+  line-height: 1;
+  height: auto;
+  width: auto;
+  display: inline;
+}
+
+#header .heading a {
+  color: #990000;
+  text-shadow: -2px 3px 0 #fff;
+  font-style: italic;
+  font-size: 2.314em;
+  line-height: 1.75em;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #efd2d5b3;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#outer.wrapper,
+#inner.wrapper {
+  background-color: #000;
+  background-size: 300px;
+  background-blend-mode: overlay;
+}
+
+#footer,
+a.tag:hover {
+  background: url(https://i.imgur.com/qOX6JlI.gif);
+  background-size: 500px;
+  font-weight: 570;
+  text-shadow: 1px 1px 2px rgb(0 0 0);
+  -webkit-text-stroke: .25px #ffffff;
+  background-color: #aa000042;
+}
+
+#footer {
+  background: url(https://i.imgur.com/4HezNIR.jpeg);
+  background-size: 500px;
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.tags a.tag:hover {
+  background: url(https://i.imgur.com/5nNLaqZ.gif);
+  background-size: 500px;
+  font-weight: 599;
+  color: #fff !important;
+  background-blend-mode: normal;
+  text-shadow: 1px 1px 3px rgb(0 0 0);
+  -webkit-text-stroke: .30px #fff;
+  background-color: #8d0000;
+  border: 1.6px solid #fff;
+}
+
+.tags a.tag {
+  background-color: #fff;
+  color: #000 !important;
+  line-height: 2.8;
+  text-decoration: none;
+  padding: 5px 9px;
+  border: 1.6px solid #000;
+  border-radius: 10px;
+}
+
+.tags a.tag::after {
+  content: "𓂇";
+  color: #000;
+  text-shadow: 0 0 3px #fff;
+  margin-right: 2px;
+}
+
+.warnings .tag {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.relationships .tag {
+  background-color: #f4dfe2;
+  color: #000 !important;
+}
+
+.characters .tag {
+  background-color: #f4dfe2;
+  color: #000 !important;
+}
+
+.freeforms .tag {
+  background-color: #f4dfe2;
+  color: #000;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-weight: 900;
+  font-size: 2.429em;
+  letter-spacing: 0.01em;
+  line-height: 1.14em;
+  margin: 0;
+  padding: .5em;
+  color: #fff;
+  text-shadow: 2px 3px 5px #000;
+  -webkit-text-stroke: 1px #07485d;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-weight: 800;
+  font-size: 2.143em;
+  letter-spacing: 0.02em;
+  line-height: 1.14em;
+  margin: 0;
+  padding: .4em .25em 0 .25em;
+  color: #fff;
+  text-shadow: 1px 1px 4px #fff;
+  -webkit-text-stroke: 0.5px black;
+}
+
+h3 {
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 1.571em;
+  letter-spacing: 0.03em;
+  line-height: 1.14em;
+  margin: 0;
+  padding: .25em .25em 0 .25em;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  -webkit-text-stroke: 0.25px #fff;
+}
+
+ul.news.index.group h4.heading a {
+  color: #990000 !important;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip {
+  background-image: url(https://i.imgur.com/TzBaTfX.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  border-color: #000;
+  color: #fff;
+}
+
+.splash .module p {
+  color: #000;
+}
+
+body,
+p,
+li {
+  color: white;
+}
+
+a {
+  color: #FC2631;
+}
+
+#header ul.primary a,
+#header ul.primary li {
+  color: #000 !important;
+}

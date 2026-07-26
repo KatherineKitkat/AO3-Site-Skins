@@ -337,7 +337,7 @@ textarea {
 }
 
 .splash .favorite:after {
-  content: "✮❦꧂❦✮ ";
+  content: "▬▬ι══════ﺤ";
   display: flex;
   justify-content: center;
   align-items: center;

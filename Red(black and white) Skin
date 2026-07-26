@@ -723,7 +723,10 @@ li.skins.own.picture.blurb.group h4.heading a {
   font-size: 2.314em;
   line-height: 1.75em;
 }
-
+#header ul.primary a,
+#header ul.primary li {
+  color: #000 !important;
+}
 p.muted.notice {
   display: none;
 }
@@ -885,7 +888,10 @@ a {
   color: #FC2631;
 }
 
-#header ul.primary a,
-#header ul.primary li {
-  color: #000 !important;
+.flash.notice {
+  background: #A60000 !important;
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.5em 1em;
 }

@@ -669,7 +669,7 @@ li.comment:nth-child(even) {
 }
 
 .comment .icon .visitor {
-  background: url(https://i.imgur.com/bnm8oK4.jpeg);
+  background: url(https://i.imgur.com/D3afDKE.jpeg);
   display: block;
   background-size: contain;
 }

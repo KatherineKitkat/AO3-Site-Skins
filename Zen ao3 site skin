@@ -348,13 +348,13 @@ div.dynamic,
 
 .required-tags .rating-general-audience,
 img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
-  background: url("https://i.imgur.com/BdEQOQL.png");
+  background: url("https://i.imgur.com/lUWPVVN.png");
   background-size: cover;
 }
 
 .required-tags .rating-teen,
 img[src$="/images/skins/iconsets/default/rating-teen.png"] {
-  background: url("https://i.imgur.com/lUWPVVN.png");
+  background: url("https://i.imgur.com/BdEQOQL.png");
   background-size: cover;
 }
 
